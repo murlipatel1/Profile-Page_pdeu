@@ -3,7 +3,7 @@ import React from 'react'
 export const AcademicDetails = () => {
     return (
         <>
-            <div className="bg-gray-200 rounded-3xl mx-4 py-4">
+            <div className="bg-gray-200 rounded-3xl mx-14 py-4">
                 <h2 className="mx-8 font-bold py-2 px-0">Academic Details</h2>
                 <div className="overflow-x-auto relative shadow-md sm:rounded-lg mx-6">
                     <table className="w-full text-sm text-left text-gray-500 ">

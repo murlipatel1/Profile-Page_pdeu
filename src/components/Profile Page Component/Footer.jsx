@@ -1,16 +1,66 @@
-import React from 'react'
-import footer from './images/image 4.png'
-export const Footer = () => {
-  return (
-    <>
-    <div className='flex flex-row '>
-    <div>
-        <img  className=' h-20 w-auto p-2 ml-4 bg-orange-400' src="https://www.pdpu.ac.in/images/PDEU%20Logo.png" alt="" />
-    </div>
-    <div className='bg-sky-800 w-full mr-4'>
+import React from "react";
 
+export default function Footer() {
+return(
+    <footer>
+<div className="Footer">
+<div className="Footer_Container1">
+</div>
+
+<div className="Footer_Container2">
+    <div className="Footer_heading">
+        <center><h4>Quick Links</h4></center>
+    </div>
+    <div className="footer_links">
+    <div className="Footer_links1">
+    
+        <ul>
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>
+
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>
+
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>   
+       </ul>
+    </div>
+
+    <div className="Footer_links2">
+        <ul>
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>
+
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>
+
+            <li className="nav__item">
+                <a href="#home" className="">
+                Home
+                </a>
+            </li>   
+       </ul>
     </div>
     </div>
-    </>
-  )
+
+
+</div>
+</div>
+</footer>
+)
 }

@@ -5,7 +5,7 @@ import imageinsta from './images/akar-icons_instagram-fill.png'
 export const SocialMedia = () => {
   return (
     <>
-      <div className="bg-gray-200 rounded-3xl mx-4 my-4">
+      <div className="bg-gray-200 rounded-3xl mx-14 my-4">
         <h2 className="mx-8 font-bold py-2 px-0">Social Media</h2>
         <div className="flex flex-col">
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">

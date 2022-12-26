@@ -3,7 +3,7 @@ import React from 'react'
 export const Projects = () => {
     const [showModal, setShowModal] = React.useState(false);
     return (
-        <div className="  overflow-x-auto relative shadow-md sm:rounded-lg bg-gray-200 rounded-2xl mx-4 my-4">
+        <div className="overflow-x-auto relative shadow-md sm:rounded-lg bg-gray-200 rounded-2xl mx-14 my-4">
             <div className='flex flex-col justify-between'>
                 <div className='flex justify-between'>
 

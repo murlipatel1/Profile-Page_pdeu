@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Skills = () => {
   return (
-    <div className=" bg-gray-200 rounded-3xl mx-4 my-4">
+    <div className=" bg-gray-200 rounded-3xl mx-14 my-4">
       <div className='flex justify-between'>
         <h2 className="mx-8 font-bold py-2 px-0 inline-block">Skill</h2>
         <div className='my-1'>

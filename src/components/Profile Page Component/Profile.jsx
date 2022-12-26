@@ -3,8 +3,8 @@ import image from './images/Rectangle19.png'
 import imagereact from './images/logo192.png'
 export const Profile = () => {
   return (
-    <div className='mt-24'>
-      <div className=" bg-gray-200  rounded-3xl mx-4 my-4 flex flex-wrap items-center justify-center">
+    <div>
+      <div className="  rounded-3xl mx-4  flex flex-wrap items-center justify-center">
         <div className="container  bg-white rounded shadow-lg transform duration-200 easy-in-out m-12">
           <div className="h-2/4 sm:h-64 overflow-hidden">
             <img className="w-full rounded-t"
