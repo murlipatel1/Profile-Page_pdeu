@@ -7,13 +7,16 @@ import { Clubs } from '../components/Profile Page Component/Clubs';
 import { SocialMedia } from '../components/Profile Page Component/SocialMedia';
 import { Profile } from '../components/Profile Page Component/Profile';
 import { Navbar } from '../components/Profile Page Component/Navbar';
-import { Footer } from '../components/Profile Page Component/Footer';
+// import { Footer } from '../components/Profile Page Component/Footer';
+import Header from '../components/Profile Page Component/Header';
+import Footer from '../components/Profile Page Component/Footer';
 
 
 export const ProfilePage = () => {
   return (
     <div>
-        <Navbar/>
+      <Header />
+        {/* <Navbar/> */}
       <Profile />
       <AcademicDetails />
       <About />
@@ -21,7 +24,7 @@ export const ProfilePage = () => {
       <Clubs />
       <SocialMedia />
       <Projects />
-      <Footer/>
+      <Footer />
     </div>
   )
 }
